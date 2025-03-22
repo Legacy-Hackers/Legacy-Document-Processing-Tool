@@ -1,0 +1,1507 @@
+{
+  "document_type": "machine-readable",
+  "title": "",
+  "author": " ",
+  "pages": [
+    {
+      "page_number": 1,
+      "page_content": "NSS 70th round \n \nTable 4: List of big towns (million plus population in census 2011) treated as individual stratum \n \nsl. no. \nname of  town \n state/ UT \nState code \nStratum no. \n1 \nSrinagar \nJammu & Kashmir \n01 \n23 \n2 \nAmritsar \nPunjab \n03 \n21 \n3 \nLudhiana \nPunjab \n03 \n22 \n4 \nFaridabad \nHaryana \n06 \n22 \n5 \nDelhi \nDelhi \n07 \n10 \n6 \nJaipur \nRajasthan \n08 \n34 \n7 \nJodhpur \nRajasthan \n08 \n35 \n8 \nKota \nRajasthan \n08 \n36 \n9 \nMeerut \nUttar Pradesh \n09 \n72 \n10 \nGhaziabad \nUttar Pradesh \n09 \n73 \n11 \nAgra \nUttar Pradesh \n09 \n74 \n12 \nLucknow \nUttar Pradesh \n09 \n75 \n13 \nKanpur \nUttar Pradesh \n09 \n76 \n14 \nAllahabad \nUttar Pradesh \n 09 \n77 \n15 \nVaranasi \nUttar Pradesh \n09 \n78 \n16 \nPatna \nBihar \n10 \n39 \n17 \nHowrah \nWest Bengal \n 19 \n20 \n18 \nKolkata \nWest Bengal \n19 \n21 \n19 \nDhanbad \nJharkhand \n 20 \n25 \n20 \nRanchi \nJharkhand \n 20 \n26 \n21 \nRaipur \nChhattisgarh \n22 \n19 \n22 \nGwalior \nMadhya Pradesh \n23 \n51 \n23 \nIndore \nMadhya Pradesh \n23 \n52 \n24 \nBhopal \nMadhya Pradesh \n23 \n53 \n25 \nJabalpur \nMadhya Pradesh \n 23 \n54 \n26 \nAhmedabad \nGujarat \n24 \n27 \n27 \nRajkot \nGujarat \n 24 \n28 \n28 \nVadodara \nGujarat \n24 \n29 \n29 \nSurat \nGujarat \n24 \n30 \n30 \nNagpur \nMaharashtra \n27 \n36 \n31 \nAurangabad \nMaharashtra \n27 \n37 \n32 \nNashik \nMaharashtra \n27 \n38 \n33 \nThane \nMaharashtra \n27 \n39 \nA-94 \nNote on Sample Design and Estimation Procedure",
+      "image_content": [],
+      "isScanned": false,
+      "extraction_method": "text",
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            ""
+          ],
+          "data": [
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "",
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": "Stratum no."
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "sl. no.",
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "1",
+              "null": "23"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "2",
+              "null": "21"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "3",
+              "null": "22"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "4",
+              "null": "22"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "5",
+              "null": "10"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "6",
+              "null": "34"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "7",
+              "null": "35"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "8",
+              "null": "36"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "9",
+              "null": "72"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "10",
+              "null": "73"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "11",
+              "null": "74"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "12",
+              "null": "75"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "13",
+              "null": "76"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "14",
+              "null": "77"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "15",
+              "null": "78"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "16",
+              "null": "39"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "17",
+              "null": "20"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "18",
+              "null": "21"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "19",
+              "null": "25"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "20",
+              "null": "26"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "21",
+              "null": "19"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "22",
+              "null": "51"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "23",
+              "null": "52"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "24",
+              "null": "53"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "25",
+              "null": "54"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "26",
+              "null": "27"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "27",
+              "null": "28"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "28",
+              "null": "29"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "29",
+              "null": "30"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "30",
+              "null": "36"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "31",
+              "null": "37"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "32",
+              "null": "38"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "33",
+              "null": "39"
+            }
+          ]
+        }
+      ],
+      "layout": [
+        {
+          "width": 612.0,
+          "height": 792.0,
+          "blocks": [
+            {
+              "index": 0,
+              "type": "text",
+              "bbox": [
+                71.99954223632812,
+                33.67209243774414,
+                542.489990234375,
+                58.11394500732422
+              ],
+              "text": [
+                "NSS 70th round ",
+                " "
+              ]
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "bbox": [
+                75.23999786376953,
+                71.15423583984375,
+                525.8400268554688,
+                99.16466522216797
+              ],
+              "text": [
+                "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum ",
+                " "
+              ]
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "bbox": [
+                75.23999786376953,
+                97.12178039550781,
+                529.2899780273438,
+                114.1563720703125
+              ],
+              "text": [
+                "sl. no. ",
+                "name of  town ",
+                " state/ UT ",
+                "State code ",
+                "Stratum no. "
+              ]
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                120.494873046875,
+                539.4000244140625,
+                135.22222900390625
+              ],
+              "text": [
+                "1 ",
+                "Srinagar ",
+                "Jammu & Kashmir ",
+                "01 ",
+                "23 "
+              ]
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                136.57489013671875,
+                539.4000244140625,
+                153.22222900390625
+              ],
+              "text": [
+                "2 ",
+                "Amritsar ",
+                "Punjab ",
+                "03 ",
+                "21 "
+              ]
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                154.57489013671875,
+                539.4000244140625,
+                171.22222900390625
+              ],
+              "text": [
+                "3 ",
+                "Ludhiana ",
+                "Punjab ",
+                "03 ",
+                "22 "
+              ]
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                174.494873046875,
+                539.4000244140625,
+                189.22222900390625
+              ],
+              "text": [
+                "4 ",
+                "Faridabad ",
+                "Haryana ",
+                "06 ",
+                "22 "
+              ]
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                192.494873046875,
+                539.4000244140625,
+                207.22222900390625
+              ],
+              "text": [
+                "5 ",
+                "Delhi ",
+                "Delhi ",
+                "07 ",
+                "10 "
+              ]
+            },
+            {
+              "index": 8,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                210.494873046875,
+                539.4000244140625,
+                225.22222900390625
+              ],
+              "text": [
+                "6 ",
+                "Jaipur ",
+                "Rajasthan ",
+                "08 ",
+                "34 "
+              ]
+            },
+            {
+              "index": 9,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                226.57489013671875,
+                539.4000244140625,
+                243.22222900390625
+              ],
+              "text": [
+                "7 ",
+                "Jodhpur ",
+                "Rajasthan ",
+                "08 ",
+                "35 "
+              ]
+            },
+            {
+              "index": 10,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                244.57489013671875,
+                539.4000244140625,
+                261.22222900390625
+              ],
+              "text": [
+                "8 ",
+                "Kota ",
+                "Rajasthan ",
+                "08 ",
+                "36 "
+              ]
+            },
+            {
+              "index": 11,
+              "type": "text",
+              "bbox": [
+                95.87999725341797,
+                264.494873046875,
+                539.4000244140625,
+                279.22222900390625
+              ],
+              "text": [
+                "9 ",
+                "Meerut ",
+                "Uttar Pradesh ",
+                "09 ",
+                "72 "
+              ]
+            },
+            {
+              "index": 12,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                282.494873046875,
+                539.4000244140625,
+                297.22222900390625
+              ],
+              "text": [
+                "10 ",
+                "Ghaziabad ",
+                "Uttar Pradesh ",
+                "09 ",
+                "73 "
+              ]
+            },
+            {
+              "index": 13,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                300.494873046875,
+                539.4000244140625,
+                315.22222900390625
+              ],
+              "text": [
+                "11 ",
+                "Agra ",
+                "Uttar Pradesh ",
+                "09 ",
+                "74 "
+              ]
+            },
+            {
+              "index": 14,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                318.494873046875,
+                539.4000244140625,
+                333.22222900390625
+              ],
+              "text": [
+                "12 ",
+                "Lucknow ",
+                "Uttar Pradesh ",
+                "09 ",
+                "75 "
+              ]
+            },
+            {
+              "index": 15,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                336.494873046875,
+                539.4000244140625,
+                351.22222900390625
+              ],
+              "text": [
+                "13 ",
+                "Kanpur ",
+                "Uttar Pradesh ",
+                "09 ",
+                "76 "
+              ]
+            },
+            {
+              "index": 16,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                354.494873046875,
+                539.4000244140625,
+                369.22222900390625
+              ],
+              "text": [
+                "14 ",
+                "Allahabad ",
+                "Uttar Pradesh ",
+                " 09 ",
+                "77 "
+              ]
+            },
+            {
+              "index": 17,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                372.494873046875,
+                539.4000244140625,
+                387.22222900390625
+              ],
+              "text": [
+                "15 ",
+                "Varanasi ",
+                "Uttar Pradesh ",
+                "09 ",
+                "78 "
+              ]
+            },
+            {
+              "index": 18,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                390.494873046875,
+                539.4000244140625,
+                405.22222900390625
+              ],
+              "text": [
+                "16 ",
+                "Patna ",
+                "Bihar ",
+                "10 ",
+                "39 "
+              ]
+            },
+            {
+              "index": 19,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                408.494873046875,
+                539.4000244140625,
+                423.22222900390625
+              ],
+              "text": [
+                "17 ",
+                "Howrah ",
+                "West Bengal ",
+                " 19 ",
+                "20 "
+              ]
+            },
+            {
+              "index": 20,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                426.494873046875,
+                539.4000244140625,
+                441.22222900390625
+              ],
+              "text": [
+                "18 ",
+                "Kolkata ",
+                "West Bengal ",
+                "19 ",
+                "21 "
+              ]
+            },
+            {
+              "index": 21,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                444.494873046875,
+                539.4000244140625,
+                459.22222900390625
+              ],
+              "text": [
+                "19 ",
+                "Dhanbad ",
+                "Jharkhand ",
+                " 20 ",
+                "25 "
+              ]
+            },
+            {
+              "index": 22,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                462.494873046875,
+                539.4000244140625,
+                477.22222900390625
+              ],
+              "text": [
+                "20 ",
+                "Ranchi ",
+                "Jharkhand ",
+                " 20 ",
+                "26 "
+              ]
+            },
+            {
+              "index": 23,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                478.57489013671875,
+                539.4000244140625,
+                495.22222900390625
+              ],
+              "text": [
+                "21 ",
+                "Raipur ",
+                "Chhattisgarh ",
+                "22 ",
+                "19 "
+              ]
+            },
+            {
+              "index": 24,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                496.57489013671875,
+                539.4000244140625,
+                513.2222290039062
+              ],
+              "text": [
+                "22 ",
+                "Gwalior ",
+                "Madhya Pradesh ",
+                "23 ",
+                "51 "
+              ]
+            },
+            {
+              "index": 25,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                514.5748901367188,
+                539.4000244140625,
+                531.2222290039062
+              ],
+              "text": [
+                "23 ",
+                "Indore ",
+                "Madhya Pradesh ",
+                "23 ",
+                "52 "
+              ]
+            },
+            {
+              "index": 26,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                532.5748901367188,
+                539.4000244140625,
+                549.2222290039062
+              ],
+              "text": [
+                "24 ",
+                "Bhopal ",
+                "Madhya Pradesh ",
+                "23 ",
+                "53 "
+              ]
+            },
+            {
+              "index": 27,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                550.5748901367188,
+                539.4000244140625,
+                567.2222290039062
+              ],
+              "text": [
+                "25 ",
+                "Jabalpur ",
+                "Madhya Pradesh ",
+                " 23 ",
+                "54 "
+              ]
+            },
+            {
+              "index": 28,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                568.5748901367188,
+                539.4000244140625,
+                585.2222290039062
+              ],
+              "text": [
+                "26 ",
+                "Ahmedabad ",
+                "Gujarat ",
+                "24 ",
+                "27 "
+              ]
+            },
+            {
+              "index": 29,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                586.5748901367188,
+                539.4000244140625,
+                603.2222290039062
+              ],
+              "text": [
+                "27 ",
+                "Rajkot ",
+                "Gujarat ",
+                " 24 ",
+                "28 "
+              ]
+            },
+            {
+              "index": 30,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                604.5748901367188,
+                539.4000244140625,
+                621.2222290039062
+              ],
+              "text": [
+                "28 ",
+                "Vadodara ",
+                "Gujarat ",
+                "24 ",
+                "29 "
+              ]
+            },
+            {
+              "index": 31,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                622.5748901367188,
+                539.4000244140625,
+                639.2222290039062
+              ],
+              "text": [
+                "29 ",
+                "Surat ",
+                "Gujarat ",
+                "24 ",
+                "30 "
+              ]
+            },
+            {
+              "index": 32,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                640.5748901367188,
+                539.4000244140625,
+                657.2222290039062
+              ],
+              "text": [
+                "30 ",
+                "Nagpur ",
+                "Maharashtra ",
+                "27 ",
+                "36 "
+              ]
+            },
+            {
+              "index": 33,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                658.5748901367188,
+                539.4000244140625,
+                673.30224609375
+              ],
+              "text": [
+                "31 ",
+                "Aurangabad ",
+                "Maharashtra ",
+                "27 ",
+                "37 "
+              ]
+            },
+            {
+              "index": 34,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                676.5748901367188,
+                539.4000244140625,
+                691.30224609375
+              ],
+              "text": [
+                "32 ",
+                "Nashik ",
+                "Maharashtra ",
+                "27 ",
+                "38 "
+              ]
+            },
+            {
+              "index": 35,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                694.5748901367188,
+                539.4000244140625,
+                711.2222290039062
+              ],
+              "text": [
+                "33 ",
+                "Thane ",
+                "Maharashtra ",
+                "27 ",
+                "39 "
+              ]
+            },
+            {
+              "index": 36,
+              "type": "text",
+              "bbox": [
+                295.67999267578125,
+                731.47216796875,
+                542.48876953125,
+                756.282470703125
+              ],
+              "text": [
+                "A-94 ",
+                "Note on Sample Design and Estimation Procedure "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "page_content": "NSS 70th round \n \nTable 4: List of big towns (million plus population in census 2011) treated as individual stratum \n \nsl. no. \nname of  town \n state/ UT \nState code \nStratum no. \n34 \nNavi Mumbai \nMaharashtra \n27 \n40 \n35 \nKalyan-Dombivali \nMaharashtra \n27 \n41 \n36 \nGreater Mumbai \nMaharashtra \n27 \n42 \n37 \nPune \nMaharashtra \n27 \n43 \n38 \nPimpri-Chinchwad \nMaharashtra \n27 \n44 \n39 \nVisakhapatnam \nAndhra Pradesh \n28 \n25 \n40 \nVijayawada \nAndhra Pradesh \n28 \n26 \n41 \nBangalore \nKarnataka \n29 \n31 \n42 \nChennai \nTamil Nadu \n33 \n33 \n43 \nCoimbatore \nTamil Nadu \n 33 \n34 \n44 \nMadurai \nTamil Nadu \n 33 \n 35 \n45 \nGreater Hyderabad \nTelangana \n36 \n24 \n \n \n \n \n \n \nA-95 \nNote on Sample Design and Estimation Procedure",
+      "image_content": [],
+      "isScanned": false,
+      "extraction_method": "text",
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            ""
+          ],
+          "data": [
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "",
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": "Stratum no."
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "sl. no.",
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "34",
+              "null": "40"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "35",
+              "null": "41"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "36",
+              "null": "42"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "37",
+              "null": "43"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "38",
+              "null": "44"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "39",
+              "null": "25"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "40",
+              "null": "26"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "41",
+              "null": "31"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "42",
+              "null": "33"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "43",
+              "null": "34"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "44",
+              "null": "35"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "45",
+              "null": "24"
+            },
+            {
+              "": null,
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": null,
+              "null": null
+            },
+            {
+              "": "",
+              "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum": "",
+              "null": ""
+            }
+          ]
+        }
+      ],
+      "layout": [
+        {
+          "width": 612.0,
+          "height": 792.0,
+          "blocks": [
+            {
+              "index": 0,
+              "type": "text",
+              "bbox": [
+                71.99954223632812,
+                33.67209243774414,
+                542.489990234375,
+                58.11394500732422
+              ],
+              "text": [
+                "NSS 70th round ",
+                " "
+              ]
+            },
+            {
+              "index": 1,
+              "type": "text",
+              "bbox": [
+                75.23999786376953,
+                71.15423583984375,
+                525.8400268554688,
+                99.16466522216797
+              ],
+              "text": [
+                "Table 4: List of big towns (million plus population in census 2011) treated as individual stratum ",
+                " "
+              ]
+            },
+            {
+              "index": 2,
+              "type": "text",
+              "bbox": [
+                75.23999786376953,
+                97.12178039550781,
+                529.2899780273438,
+                114.1563720703125
+              ],
+              "text": [
+                "sl. no. ",
+                "name of  town ",
+                " state/ UT ",
+                "State code ",
+                "Stratum no. "
+              ]
+            },
+            {
+              "index": 3,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                118.57489013671875,
+                539.4000244140625,
+                135.22222900390625
+              ],
+              "text": [
+                "34 ",
+                "Navi Mumbai ",
+                "Maharashtra ",
+                "27 ",
+                "40 "
+              ]
+            },
+            {
+              "index": 4,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                136.57489013671875,
+                539.4000244140625,
+                153.22222900390625
+              ],
+              "text": [
+                "35 ",
+                "Kalyan-Dombivali ",
+                "Maharashtra ",
+                "27 ",
+                "41 "
+              ]
+            },
+            {
+              "index": 5,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                154.57489013671875,
+                539.4000244140625,
+                171.22222900390625
+              ],
+              "text": [
+                "36 ",
+                "Greater Mumbai ",
+                "Maharashtra ",
+                "27 ",
+                "42 "
+              ]
+            },
+            {
+              "index": 6,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                172.57489013671875,
+                539.4000244140625,
+                189.22222900390625
+              ],
+              "text": [
+                "37 ",
+                "Pune ",
+                "Maharashtra ",
+                "27 ",
+                "43 "
+              ]
+            },
+            {
+              "index": 7,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                190.57489013671875,
+                539.4000244140625,
+                207.22222900390625
+              ],
+              "text": [
+                "38 ",
+                "Pimpri-Chinchwad ",
+                "Maharashtra ",
+                "27 ",
+                "44 "
+              ]
+            },
+            {
+              "index": 8,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                210.494873046875,
+                539.4000244140625,
+                225.22222900390625
+              ],
+              "text": [
+                "39 ",
+                "Visakhapatnam ",
+                "Andhra Pradesh ",
+                "28 ",
+                "25 "
+              ]
+            },
+            {
+              "index": 9,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                228.494873046875,
+                539.4000244140625,
+                243.22222900390625
+              ],
+              "text": [
+                "40 ",
+                "Vijayawada ",
+                "Andhra Pradesh ",
+                "28 ",
+                "26 "
+              ]
+            },
+            {
+              "index": 10,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                246.494873046875,
+                539.4000244140625,
+                261.22222900390625
+              ],
+              "text": [
+                "41 ",
+                "Bangalore ",
+                "Karnataka ",
+                "29 ",
+                "31 "
+              ]
+            },
+            {
+              "index": 11,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                264.494873046875,
+                539.4000244140625,
+                279.22222900390625
+              ],
+              "text": [
+                "42 ",
+                "Chennai ",
+                "Tamil Nadu ",
+                "33 ",
+                "33 "
+              ]
+            },
+            {
+              "index": 12,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                282.494873046875,
+                539.4000244140625,
+                297.22222900390625
+              ],
+              "text": [
+                "43 ",
+                "Coimbatore ",
+                "Tamil Nadu ",
+                " 33 ",
+                "34 "
+              ]
+            },
+            {
+              "index": 13,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                300.494873046875,
+                539.4000244140625,
+                315.22222900390625
+              ],
+              "text": [
+                "44 ",
+                "Madurai ",
+                "Tamil Nadu ",
+                " 33 ",
+                " 35 "
+              ]
+            },
+            {
+              "index": 14,
+              "type": "text",
+              "bbox": [
+                93.12000274658203,
+                318.494873046875,
+                539.4000244140625,
+                333.22222900390625
+              ],
+              "text": [
+                "45 ",
+                "Greater Hyderabad ",
+                "Telangana ",
+                "36 ",
+                "24 "
+              ]
+            },
+            {
+              "index": 15,
+              "type": "text",
+              "bbox": [
+                98.63999938964844,
+                336.9748840332031,
+                539.4000244140625,
+                351.7022399902344
+              ],
+              "text": [
+                " ",
+                " ",
+                " ",
+                " ",
+                " "
+              ]
+            },
+            {
+              "index": 16,
+              "type": "text",
+              "bbox": [
+                72.0,
+                349.7521057128906,
+                74.48999786376953,
+                363.03875732421875
+              ],
+              "text": [
+                " "
+              ]
+            },
+            {
+              "index": 17,
+              "type": "text",
+              "bbox": [
+                295.68170166015625,
+                731.4691772460938,
+                542.490478515625,
+                756.2794799804688
+              ],
+              "text": [
+                "A-95 ",
+                "Note on Sample Design and Estimation Procedure "
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bookmarks": []
+}

@@ -28,7 +28,11 @@ import {
   Button,
   Badge,
   Grow,
-  ListItemIcon
+  ListItemIcon,
+  Select,
+  FormControl,
+  InputLabel,
+  SelectChangeEvent
 } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import MicIcon from '@mui/icons-material/Mic';
@@ -42,17 +46,55 @@ import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/Delete';
 import TableChartIcon from '@mui/icons-material/TableChart';
+import CheckIcon from '@mui/icons-material/Check';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { executeQuery as apiExecuteQuery, DocumentMention, DocumentSuggestion, getDocumentSuggestions } from '../../api';
 import { debounce } from 'lodash';
 import './QueryTool.css';
 
-// Voice query function (stub for now)
-const startVoiceQuery = async (): Promise<any> => {
-  console.log('Voice query not implemented');
-  return { success: false, error: 'Voice query not implemented' };
-};
+// Add type definitions for the Speech Recognition API
+declare global {
+  interface Window {
+    SpeechRecognition: any;
+    webkitSpeechRecognition: any;
+  }
+}
+
+// Define SpeechRecognition types
+interface SpeechRecognitionEvent extends Event {
+  results: SpeechRecognitionResultList;
+  resultIndex: number;
+}
+
+interface SpeechRecognitionResultList {
+  readonly length: number;
+  item(index: number): SpeechRecognitionResult;
+  [index: number]: SpeechRecognitionResult;
+}
+
+interface SpeechRecognitionResult {
+  readonly length: number;
+  item(index: number): SpeechRecognitionAlternative;
+  [index: number]: SpeechRecognitionAlternative;
+  isFinal: boolean;
+}
+
+interface SpeechRecognitionAlternative {
+  transcript: string;
+  confidence: number;
+}
+
+// Define language options
+interface LanguageOption {
+  value: string;
+  label: string;
+}
+
+const LANGUAGE_OPTIONS: LanguageOption[] = [
+  { value: 'en-US', label: 'English' },
+  { value: 'hi-IN', label: 'Hindi' }
+];
 
 // Define TableReference interface
 interface TableReference {
@@ -702,6 +744,15 @@ const QueryTool: React.FC = () => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   
+  // Speech recognition state
+  const [recognition, setRecognition] = useState<any>(null);
+  const [speechLanguage, setSpeechLanguage] = useState<string>('en-US');
+
+  // Toggle language between English and Hindi
+  const toggleLanguage = () => {
+    setSpeechLanguage(prev => prev === 'en-US' ? 'hi-IN' : 'en-US');
+  };
+
   // Document mention related states
   const [documents, setDocuments] = useState<DocumentSuggestion[]>([]);
   const [showMentionSuggestions, setShowMentionSuggestions] = useState<boolean>(false);
@@ -961,7 +1012,14 @@ const QueryTool: React.FC = () => {
   const toggleVoiceRecording = async () => {
     if (isRecording) {
       setIsRecording(false);
-      // Stop recording logic if needed
+      // Stop recording
+      if (recognition) {
+        recognition.stop();
+        // Auto-send the message if there's input content
+        if (input.trim()) {
+          handleSend();
+        }
+      }
     } else {
       try {
         setIsRecording(true);
@@ -971,6 +1029,88 @@ const QueryTool: React.FC = () => {
         setError('Failed to start voice recognition.');
         setIsRecording(false);
       }
+    }
+  };
+
+  // Initialize and start speech recognition
+  const startVoiceQuery = async (): Promise<any> => {
+    try {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      
+      if (!SpeechRecognition) {
+        setError('Speech Recognition is not supported in this browser');
+        setIsRecording(false);
+        return { success: false, error: 'Speech Recognition is not supported in this browser' };
+      }
+      
+      const recognitionInstance = new SpeechRecognition();
+      recognitionInstance.continuous = true;
+      recognitionInstance.interimResults = true;
+      recognitionInstance.lang = speechLanguage;
+      
+      recognitionInstance.onstart = () => {
+        console.log('Speech recognition started');
+        setIsRecording(true);
+      };
+      
+      recognitionInstance.onresult = (event: SpeechRecognitionEvent) => {
+        let interimTranscript = '';
+        let finalTranscript = '';
+        
+        for (let i = event.resultIndex; i < event.results.length; ++i) {
+          const transcript = event.results[i][0].transcript;
+          
+          if (event.results[i].isFinal) {
+            finalTranscript += transcript;
+          } else {
+            interimTranscript += transcript;
+          }
+        }
+        
+        // Update input with transcribed text
+        setInput(prevInput => {
+          // If this is the first result, replace any existing input
+          if (event.resultIndex === 0 && finalTranscript === '') {
+            return interimTranscript;
+          }
+          // Otherwise, for interim results, update with the full transcript
+          return finalTranscript + interimTranscript;
+        });
+      };
+      
+      recognitionInstance.onend = () => {
+        console.log('Speech recognition ended');
+        
+        // Auto-send if we have content and recognition ended naturally
+        // Store current input before changing recording state
+        const currentInput = input.trim();
+        
+        // Only auto-send if we were actively recording (not manually stopped)
+        // and there is content to send
+        if (currentInput && isRecording) {
+          // We need to use setTimeout to ensure this executes after state update
+          setTimeout(() => {
+            handleSend();
+          }, 0);
+        }
+        
+        setIsRecording(false);
+      };
+      
+      recognitionInstance.onerror = (event: any) => {
+        console.error('Speech recognition error:', event.error);
+        setError(`Speech recognition error: ${event.error}`);
+        setIsRecording(false);
+      };
+      
+      recognitionInstance.start();
+      setRecognition(recognitionInstance);
+      return { success: true };
+    } catch (error) {
+      console.error('Failed to start speech recognition:', error);
+      setError('Failed to start speech recognition');
+      setIsRecording(false);
+      return { success: false, error: 'Failed to start speech recognition' };
     }
   };
 
@@ -1098,19 +1238,58 @@ const QueryTool: React.FC = () => {
               selectedMode={selectedMode} 
               onModeSelect={setSelectedMode} 
             />
-            <Tooltip title={isRecording ? 'Stop Recording' : 'Voice Query'}>
-              <span>
-                <IconButton
-                  className={`voice-button ${isRecording ? 'recording' : ''}`}
-                  color={isRecording ? 'secondary' : 'default'}
-                  onClick={toggleVoiceRecording}
-                  disabled={loading}
-                  aria-label={isRecording ? 'Stop voice recording' : 'Start voice recording'}
-                >
-                  <MicIcon />
-                </IconButton>
-              </span>
-            </Tooltip>
+            <Box sx={{ position: 'relative' }}>
+              <Tooltip title={isRecording ? 'Stop Recording' : 'Voice Query'}>
+                <span>
+                  <IconButton
+                    className={`voice-button ${isRecording ? 'recording' : ''}`}
+                    color={isRecording ? 'secondary' : 'default'}
+                    onClick={toggleVoiceRecording}
+                    disabled={loading}
+                    aria-label={isRecording ? 'Stop voice recording' : 'Start voice recording'}
+                    sx={{
+                      position: 'relative',
+                      ...(isRecording && {
+                        animation: 'pulse 1.5s infinite',
+                        '@keyframes pulse': {
+                          '0%': { boxShadow: '0 0 0 0 rgba(244, 67, 54, 0.4)' },
+                          '70%': { boxShadow: '0 0 0 10px rgba(244, 67, 54, 0)' },
+                          '100%': { boxShadow: '0 0 0 0 rgba(244, 67, 54, 0)' }
+                        }
+                      })
+                    }}
+                  >
+                    {isRecording ? <CheckIcon /> : <MicIcon />}
+                  </IconButton>
+                </span>
+              </Tooltip>
+              
+              {/* Language indicator chip */}
+              <Tooltip title="Toggle language">
+                <Chip
+                  label={speechLanguage === 'en-US' ? 'EN' : 'HI'}
+                  size="small"
+                  onClick={toggleLanguage}
+                  sx={{
+                    position: 'absolute',
+                    bottom: -8,
+                    right: -8,
+                    height: '20px',
+                    minWidth: '28px',
+                    fontSize: '0.625rem',
+                    fontWeight: 'bold',
+                    backgroundColor: alpha(theme.palette.primary.main, 0.1),
+                    border: `1px solid ${alpha(theme.palette.primary.main, 0.3)}`,
+                    color: theme.palette.primary.main,
+                    cursor: 'pointer',
+                    '&:hover': {
+                      backgroundColor: alpha(theme.palette.primary.main, 0.2),
+                    }
+                  }}
+                />
+              </Tooltip>
+            </Box>
+            
             <Tooltip title="Send Message">
               <span>
                 <IconButton 

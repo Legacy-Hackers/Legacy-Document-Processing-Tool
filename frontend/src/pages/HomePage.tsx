@@ -104,7 +104,7 @@ Extract meaningful insights and get accurate answers with ease.',
             <Button 
               variant="contained" 
               size="large" 
-              onClick={() => navigate('/query-tool')}
+              onClick={() => navigate('/upload')}
               sx={{ 
                 px: 4, 
                 py: 1.5, 
