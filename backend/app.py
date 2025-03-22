@@ -40,9 +40,10 @@ rag_system = None
 sql_agent = None
 
 # Initialize database
-@app.before_first_request
-def before_first_request():
-    """Initialize the database and required services before the first request"""
+# In Flask 2.2+, before_first_request is deprecated
+# Using alternative approach with app startup function
+def init_app():
+    """Initialize the database and required services"""
     global rag_system, sql_agent
     
     # Initialize database
@@ -63,6 +64,15 @@ def before_first_request():
     # Initialize SQL agent
     sql_agent = SqlAgent()
     sql_agent.initialize()
+
+# Initialize everything with the first request
+@app.before_request
+def before_request():
+    """Run initialization if this is the first request"""
+    global rag_system, sql_agent
+    if not hasattr(app, 'initialized'):
+        init_app()
+        app.initialized = True
 
 
 # Routes

@@ -43,7 +43,7 @@ const navItems = [
   // { text: 'Dashboard', path: '/dashboard', icon: <DashboardIcon /> },
   { text: 'Upload Documents', path: '/upload', icon: <FolderIcon /> },
   { text: 'My Documents', path: '/pdf-list', icon: <FolderIcon /> },
-  // { text: 'Visualizations', path: '/visualizations', icon: <BarChartIcon /> },
+  { text: 'Visualizations', path: '/visualizations', icon: <BarChartIcon /> },
   { text: 'Query Tool', path: '/query-tool', icon: <QuestionAnswerIcon /> },
 ];
 
