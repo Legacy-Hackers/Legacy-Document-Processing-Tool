@@ -106,7 +106,7 @@ Extract meaningful insights and get accurate answers with ease.',
               size="large" 
               onClick={() => navigate('/upload')}
               sx={{ 
-                px: 4, 
+                px: 4,  
                 py: 1.5, 
                 borderRadius: 2,
                 boxShadow: `0 4px 14px ${alpha(theme.palette.primary.main, 0.4)}`,

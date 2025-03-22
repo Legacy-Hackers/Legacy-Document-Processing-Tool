@@ -1,70 +1,187 @@
-# Getting Started with Create React App
+# Legacy Document Processing Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for processing, analyzing, and querying legacy documents. This system provides sophisticated document management capabilities including OCR processing, content extraction, and natural language querying.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Document Upload**: Easily upload PDF documents to the system
+- **Content Extraction**: Automatic extraction of text, tables, and other content from PDFs
+- **Intelligent Querying**: Natural language query capabilities using RAG (Retrieval Augmented Generation)
+- **Table Extraction**: Identifies and extracts tables from documents
+- **Document Management**: Organize, search, and filter your document collection
+- **Responsive UI**: Modern Material-UI based interface that works on desktop and mobile
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend
+- **Framework**: Flask (Python)
+- **Document Processing**: PyMuPDF, pdfplumber, pytesseract (OCR)
+- **AI/ML**: Google Generative AI for natural language processing
+- **Database**: SQLAlchemy with PostgreSQL/SQLite support
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- **Framework**: React with TypeScript
+- **UI Library**: Material-UI (MUI)
+- **State Management**: React Hooks
+- **Routing**: React Router
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Python 3.8+
+- Node.js 14+
+- PostgreSQL (optional, SQLite can be used for development)
+- Tesseract OCR (for OCR capabilities)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-### `npm run eject`
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Set up environment variables by copying the example file:
+   ```bash
+   cp .env.example .env
+   ```
+   
+5. Edit the `.env` file with your configuration settings
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Start the Flask server:
+   ```bash
+   python app.py
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
 
-## Learn More
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. The application will be available at http://localhost:3000
 
-### Code Splitting
+### Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The system uses environment variables to configure various aspects. These are stored in `.env` files in both the root and backend directories. Here's the structure:
 
-### Analyzing the Bundle Size
+#### Backend Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+# Application settings
+DEBUG=True                  # Enable/disable debug mode
+SECRET_KEY=your_secret_key  # Flask application secret key
 
-### Making a Progressive Web App
+# Database choice
+USE_POSTGRESQL=true         # Set to "true" to use PostgreSQL, "false" for SQLite
+USE_SQLITE=false            # Should be opposite of USE_POSTGRESQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# PostgreSQL Database settings
+DB_NAME=legacy_data         # Database name
+DB_USER=username            # Database username
+DB_PASS=password            # Database password  
+DB_HOST=localhost           # Database host
+DB_PORT=5432                # Database port
 
-### Advanced Configuration
+# PostgreSQL settings specifically for SQLAgent
+PG_HOST=localhost           # Same as DB_HOST
+PG_PORT=5432                # Same as DB_PORT
+PG_USER=username            # Same as DB_USER
+PG_PASSWORD=password        # Same as DB_PASS
+PG_DATABASE=legacy_data     # Same as DB_NAME
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# API Keys
+GOOGLE_API_KEY=your_api_key # Google Generative AI API key
+GEMINI_KEYS="key1 key2..."  # Space-separated list of Gemini API keys for load balancing
+```
 
-### Deployment
+Make sure to replace default values with your actual configuration. Never commit `.env` files with real credentials to version control.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Usage Guide
 
-### `npm run build` fails to minify
+### Uploading Documents
+1. Navigate to the "Upload Documents" page
+2. Drag and drop your PDF files or click to browse
+3. The system will process the documents and extract content
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Querying Documents
+1. Go to the "Query Tool" page
+2. Enter your query in natural language
+3. The system will return relevant information from your document collection
+
+### Managing Documents
+1. Visit the "My Documents" page to see all uploaded documents
+2. Use search and filters to find specific documents
+3. Click on a document to view details or download
+
+## API Reference
+
+The backend provides the following API endpoints:
+
+- `GET /api/health` - Health check endpoint
+- `GET /api/documents` - Retrieve all documents
+- `POST /api/upload` - Upload new documents
+- `GET /api/documents/<id>` - Get specific document
+- `DELETE /api/documents/<id>` - Delete a document
+- `POST /api/query` - Query documents using natural language
+- `GET /api/documents/<id>/tables` - Extract tables from documents
+- `GET /api/documents/suggestions` - Get document search suggestions
+
+## Development
+
+### Project Structure
+
+```
+legacy_document_processing_tool/
+├── backend/
+│   ├── app/
+│   │   ├── Content_Extractors/
+│   │   └── core/
+│   ├── services/
+│   ├── utils/
+│   ├── app.py
+│   ├── RAG_system.py
+│   ├── sql_agent.py
+│   └── requirements.txt
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── api/
+    │   ├── components/
+    │   ├── layout/
+    │   ├── pages/
+    │   ├── services/
+    │   └── theme/
+    ├── package.json
+    └── tsconfig.json
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
